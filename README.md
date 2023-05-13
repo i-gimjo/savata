@@ -1,2 +1,3 @@
-# savata
-2022-2 - 2023-1 캡스톤디자인과창업프로젝트 / 얼굴 사진에서 landmark를 추출하여 아바타를 자동 생성해주며, 생성된 아바타와 함께 역사 사건을 체험할 수 있는 역사 학습 AR 어플리케이션
+version https://git-lfs.github.com/spec/v1
+oid sha256:e154f0a23e8e70a92114e97f8f9f069fcb53524d6abc0172d0a737bf13b75b2e
+size 255
