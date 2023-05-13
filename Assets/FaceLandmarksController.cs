@@ -6,19 +6,20 @@ using Newtonsoft.Json.Linq;
 
 public class FaceLandmarksController : MonoBehaviour
 {
-    private string url = "http://172.31.44.86:5000";
+    private string url = "http://13.124.65.108:5000";
+    public float[,] landmarks;
 
     // Start is called before the first frame update
     void Start()
     {
         // Load test image
-        Texture2D tex = Resources.Load<Texture2D>("iu_face");
+		Texture2D tex = Resources.Load<Texture2D>("iu_face");
 
         // Convert Texture2D to byte array
         byte[] bytes = tex.EncodeToPNG();
 
         // Send put request to server
-        StartCoroutine(Put(bytes));
+		StartCoroutine(Put(bytes));
     }
 
     private bool IsValidImage(byte[] imageData)
@@ -37,7 +38,6 @@ public class FaceLandmarksController : MonoBehaviour
             Debug.LogError("Invalid image data: cannot be decoded to a texture");
             return false;
         }
-
         return true;
     }
 
@@ -70,17 +70,33 @@ public class FaceLandmarksController : MonoBehaviour
         JArray landmarksArray = (JArray)response["landmarks"];
 
         // Convert JArray to 2D float array
-        float[,] landmarks = new float[landmarksArray.Count, 2];
+        landmarks = new float[landmarksArray.Count, 2];
         for (int i = 0; i < landmarksArray.Count; i++)
         {
             landmarks[i, 0] = (float)landmarksArray[i][0];
             landmarks[i, 1] = (float)landmarksArray[i][1];
         }
 
+        // Call the function to calculate the parts
+        GameObject calObj = GameObject.Find("Calculator");
+        PartsCalculator partsCalculator = calObj.GetComponent<PartsCalculator>();
+        if (partsCalculator != null)
+        {
+            partsCalculator.CalculateParts(landmarks);
+        }
+        else
+        {
+            Debug.LogError("PartsCalculator not found.");
+        }
+
+
+        // Return landmarks
+        //yield return landmarks;
+
         // Print landmarks to console
-        for (int i = 0; i < landmarks.GetLength(0); i++)
+        /*for (int i = 0; i < landmarks.GetLength(0); i++)
         {
             Debug.Log("Landmark " + i + ": (" + landmarks[i, 0] + ", " + landmarks[i, 1] + ")");
-        }
+        }*/
     }
 }
