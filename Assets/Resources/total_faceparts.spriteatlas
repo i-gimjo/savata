@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: total_faceparts
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: a0728659e4f704b3e8ecf91a4c637036, type: 3}
+    - {fileID: 21300000, guid: cc5c025f534fd46b0851255f3ef07811, type: 3}
+    - {fileID: 21300000, guid: 3ae2bf00b5a3f43138afe43c37320a5a, type: 3}
+    - {fileID: 21300000, guid: 796aaf80e69124222ac201c15a112c39, type: 3}
+    - {fileID: 21300000, guid: 0972962a484404cf59fb1afcac95400f, type: 3}
+    - {fileID: 21300000, guid: 6459bfbeba3804492929263323b86f8f, type: 3}
+    - {fileID: 21300000, guid: 6ac406143897b470dbb11e6ba039e568, type: 3}
+    - {fileID: 21300000, guid: ff5a07c5a2a024af4b4db2a0af8a6c64, type: 3}
+    - {fileID: 21300000, guid: e9e405d84b3db477a96672fb63051c2b, type: 3}
+    - {fileID: 21300000, guid: 926777d0fa77b4d52ad473af7770ebca, type: 3}
+    - {fileID: 21300000, guid: 981cd0c2b8f6e4dd6a2350abe7f5d9d0, type: 3}
+    - {fileID: 21300000, guid: 57a7a7208ea344fd390d36414ea9320e, type: 3}
+    - {fileID: 21300000, guid: a22d493e05b5e4e6bbe830b20e65f15c, type: 3}
+    - {fileID: 21300000, guid: 8a468d6e54910444a8449938b78f6746, type: 3}
+    - {fileID: 21300000, guid: 9b43658bdc12547dab20f8d04eb51393, type: 3}
+    - {fileID: 21300000, guid: 7b326971974924be6a4206ba80d091b6, type: 3}
+    - {fileID: 21300000, guid: b6b0646d6a3e34a5aa3ce60c31b73806, type: 3}
+    - {fileID: 21300000, guid: d41355ecaf0d6453bb40f7b542e1d2ab, type: 3}
+    - {fileID: 21300000, guid: b053e734343554b6e93fbee329637b8b, type: 3}
+    - {fileID: 21300000, guid: 2280047e42a3d4920ba8e96133eee55a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 3ae2bf00b5a3f43138afe43c37320a5a, type: 3}
+  - {fileID: 21300000, guid: 57a7a7208ea344fd390d36414ea9320e, type: 3}
+  - {fileID: 21300000, guid: 796aaf80e69124222ac201c15a112c39, type: 3}
+  - {fileID: 21300000, guid: 926777d0fa77b4d52ad473af7770ebca, type: 3}
+  - {fileID: 21300000, guid: 7b326971974924be6a4206ba80d091b6, type: 3}
+  - {fileID: 21300000, guid: 981cd0c2b8f6e4dd6a2350abe7f5d9d0, type: 3}
+  - {fileID: 21300000, guid: 6ac406143897b470dbb11e6ba039e568, type: 3}
+  - {fileID: 21300000, guid: b053e734343554b6e93fbee329637b8b, type: 3}
+  - {fileID: 21300000, guid: ff5a07c5a2a024af4b4db2a0af8a6c64, type: 3}
+  - {fileID: 21300000, guid: e9e405d84b3db477a96672fb63051c2b, type: 3}
+  - {fileID: 21300000, guid: a0728659e4f704b3e8ecf91a4c637036, type: 3}
+  - {fileID: 21300000, guid: 0972962a484404cf59fb1afcac95400f, type: 3}
+  - {fileID: 21300000, guid: 9b43658bdc12547dab20f8d04eb51393, type: 3}
+  - {fileID: 21300000, guid: d41355ecaf0d6453bb40f7b542e1d2ab, type: 3}
+  - {fileID: 21300000, guid: b6b0646d6a3e34a5aa3ce60c31b73806, type: 3}
+  - {fileID: 21300000, guid: a22d493e05b5e4e6bbe830b20e65f15c, type: 3}
+  - {fileID: 21300000, guid: 8a468d6e54910444a8449938b78f6746, type: 3}
+  - {fileID: 21300000, guid: 2280047e42a3d4920ba8e96133eee55a, type: 3}
+  - {fileID: 21300000, guid: 6459bfbeba3804492929263323b86f8f, type: 3}
+  - {fileID: 21300000, guid: cc5c025f534fd46b0851255f3ef07811, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - eye_0
+  - eye_9
+  - eye_1
+  - eye_7
+  - eyebrow_1
+  - eye_8
+  - eye_4
+  - mouth_2
+  - eye_5
+  - eye_6
+  - nose_0
+  - eye_2
+  - eyebrow_0
+  - mouth_1
+  - mouth_0
+  - eye_10
+  - eye_11
+  - mouth_3
+  - eye_3
+  - nose_1
+  m_RenderDataMap: {}
+  m_Tag: total_faceparts
+  m_IsVariant: 0
